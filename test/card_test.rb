@@ -60,9 +60,7 @@ describe Card do
 
   describe "Reader methods" do
     let (:card_1) { Card.new(1, :spades) }
-
     let (:card_2) { Card.new(13, :diamonds) }
-
     let (:card_3) { Card.new(10, :clubs) }
 
     it "Can retrieve the value of the card using a `.value`." do

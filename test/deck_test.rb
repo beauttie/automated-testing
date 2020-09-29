@@ -33,6 +33,7 @@ describe Deck do
       before_draw = deck.count
       deck.draw
       after_draw = deck.count
+
       expect(before_draw - after_draw).must_equal 1
     end
 
